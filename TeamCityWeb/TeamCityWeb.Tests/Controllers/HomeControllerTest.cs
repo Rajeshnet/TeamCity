@@ -39,7 +39,7 @@ namespace TeamCityWeb.Tests.Controllers
         }
 
         [TestMethod]
-        public void Contact()
+        public void Contact()  
         {
             // Arrange
             HomeController controller = new HomeController();
