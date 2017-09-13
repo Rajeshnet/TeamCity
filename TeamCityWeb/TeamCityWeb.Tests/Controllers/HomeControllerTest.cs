@@ -55,7 +55,7 @@ namespace TeamCityWeb.Tests.Controllers
         {
             HomeController Calculator = new HomeController();
             int Sum = Calculator.Sum(10, 33);
-            Assert.AreEqual(243, Sum);
+            Assert.AreEqual(343, Sum);
         }
     }
 }
